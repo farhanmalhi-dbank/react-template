@@ -1,5 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import {
+  createSlice
+  // , createAsyncThunk
+} from "@reduxjs/toolkit";
 import { RootState } from "../Store";
 
 // export const signupUser = createAsyncThunk(

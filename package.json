@@ -12,6 +12,7 @@
     "@types/react": "^18.0.18",
     "@types/react-dom": "^18.0.6",
     "@types/react-router-dom": "^5.3.3",
+    "husky": "^8.0.1",
     "i18next": "^21.9.1",
     "i18next-browser-languagedetector": "^6.1.5",
     "react": "^17.0.0",
@@ -32,7 +33,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
