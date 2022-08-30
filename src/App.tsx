@@ -7,7 +7,7 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
 
-function App(){
+function App() {
   return (
     <div className="App">
       <BrowserRouter>
