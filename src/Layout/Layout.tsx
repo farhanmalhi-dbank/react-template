@@ -9,11 +9,9 @@ import Dashboard from '../pages/Dashboard/Dashboard';
 const layoutComponent = () => {
 
     return (
-        <BrowserRouter>
         <Routes>
           <Route path="/" element={<Dashboard/>} />
         </Routes>
-      </BrowserRouter>
     );
 };
 
