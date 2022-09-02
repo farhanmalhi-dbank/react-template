@@ -8,6 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 
 // Initialize languages
 import "./locales/i18n";
+import "antd/dist/antd.min.css";
 
 ReactDOM.render(
   <React.StrictMode>

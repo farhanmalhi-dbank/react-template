@@ -1,14 +1,15 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
+import { Button, DatePicker, Space } from "antd";
 
 import "./Dashboard.css";
 
 const Dashboard = () => {
-  const { t } = useTranslation();
-
   return (
     <>
-      <div className="container mx-auto">{t("title")}</div>
+      <Space>
+        <DatePicker />
+        <Button type="dashed">Primary Button</Button>
+      </Space>
     </>
   );
 };
