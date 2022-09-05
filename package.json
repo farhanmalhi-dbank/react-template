@@ -56,6 +56,12 @@
       "last 1 safari version"
     ]
   },
+  "lint-staged": {
+    "src/**/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier  --config .prettierrc --write"
+    ]
+  },
   "devDependencies": {
     "@types/redux-logger": "^3.0.9",
     "eslint": "^8.23.0",
@@ -64,6 +70,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
   }
 }
